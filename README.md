@@ -8,7 +8,7 @@
 ### - Capture live network packets.
 ### - Display detailed information about each packet, including source and destination IPs. 
 ### - ports, and protocol types.
-### - Support for various protocols such as TCP, UDP, and ICMP.
+### - Support for various protocols such as TCP, UDP, and HTTP.
 
 
 ## Requirements
