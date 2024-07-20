@@ -20,10 +20,10 @@ def handle_packets(packet):
             elif packet.haslayer(UDP):
                 udp_src_port = packet[UDP].sport
                 udp_dst_port = packet[UDP].dport
-                print(f"UDP Packet: {ip_src}:{udp_src_port} --> {ip_dst}:{udp_dst_port} | protocol: {proto}")
+                print(f"UDP : {ip_src}:{udp_src_port} --> {ip_dst}:{udp_dst_port} | protocol: {proto}")
 
             else:
-                print(f"IP Packet: {ip_src} --> {ip_dst} | protocol: {proto}")
+                print(f"IP : {ip_src} --> {ip_dst} | protocol: {proto}")
                 
     except Exception as e:
         print(f"Error in processing: {e}")
